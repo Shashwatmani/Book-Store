@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book-detailpage | Ebookstore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?
+      family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!------------------ Header ------------------>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/EbookStore-Logo.png" alt="EbookStore-Logo" />
+          </a>
+        </div>
+        <!----------  Nav Bar ------------------>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ebooks.html">Ebooks</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html">
+          <img
+            src="images/cart.png"
+            alt="Shoping Cart"
+            width="28px"
+            height="28px"
+            style="margin-left: 10px; margin-top: 15px"
+          />
+        </a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+
+    <!-- ----------single product details------------- -->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="images/Book4.jpeg" alt="Book4" width="68%" />
+        </div>
+        <div class="col-2">
+          <p>Home / Ebook</p>
+          <h1>C++ Programming Language</h1>
+          <h4>Rs500.00</h4>
+          <input type="number" value="1" />
+          <a href="cart.html" class="btn">Add To Cart</a>
+          <h3>Book Deatails <i class="fa fa-indent"></i></h3>
+          <br />
+          <p>
+            Certainly! "C++ Programming Language" is a comprehensive book written by Bjarne Stroustrup, the creator of C++. It serves as a definitive guide to C++ programming, covering essential concepts, features, and best practices. The book is widely regarded as a valuable resource for both beginners and experienced developers seeking in-depth knowledge of the language
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------title----------------- -->
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Related Books</h2>
+        <p>View More</p>
+      </div>
+    </div>
+    <!-- --------------Product-------------- -->
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="images/Book4.jpeg" alt="Book 4" />
+          <h4>C++ Programming Language</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs.500</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Book5.jpeg" alt="Book 5" />
+          <h4>HTML 5</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs.500</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Book6.jpeg" alt="Book 6" />
+          <h4>Civil Engineering</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Rs.500</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Book7.jpg" alt="Book 7" />
+          <h4>Engineering Mathematics</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs.500</p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
